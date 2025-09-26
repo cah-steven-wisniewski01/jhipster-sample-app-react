@@ -15,6 +15,7 @@ import PrivateRoute from 'app/shared/auth/private-route';
 import ErrorBoundaryRoutes from 'app/shared/error/error-boundary-routes';
 import PageNotFound from 'app/shared/error/page-not-found';
 import { AUTHORITIES } from 'app/config/constants';
+import BookReservation from 'app/page/BookReservation';
 
 const loading = <div>loading ...</div>;
 
@@ -66,6 +67,7 @@ const AppRoutes = () => {
             </PrivateRoute>
           }
         />
+        <Route path="book/:bookId" element={<BookReservation />} />
         <Route path="*" element={<PageNotFound />} />
       </ErrorBoundaryRoutes>
     </div>
