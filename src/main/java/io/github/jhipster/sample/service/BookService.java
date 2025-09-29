@@ -1,10 +1,8 @@
 import io.github.jhipster.sample.repository.BookRepository;
 import io.github.jhipster.sample.service.dto.BookDTO;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 @Service
-@Transactional
 public class BookService {
 
     private final BookRepository bookRepository;
