@@ -98,3 +98,28 @@ This project contains incomplete code for a Book Reservation feature. Your task 
 
 5. **Migration Strategy**
    - Propose a strategy for evolving the database schema (e.g., adding new fields, changing relationships) with minimal downtime using Liquibase.
+
+### Security & Data Validation
+
+1. **Security Audit**
+   - Identify and mitigate potential security risks in backend and frontend code (e.g., SQL injection, XSS, CSRF).
+   - Implement input validation and sanitization for all user-provided data.
+
+### Automated Testing
+
+1. **Integration & End-to-End Tests**
+   - Implement integration and end-to-end tests for critical flows (e.g., book reservation, error handling).
+   - Provide a test strategy and coverage report.
+
+### Monitoring & Observability
+
+1. **Logging & Metrics**
+   - Add logging, metrics, or tracing to key backend operations (e.g., reservation, API errors).
+   - Suggest monitoring tools and alerting strategies for production.
+
+### Scalability & Fault Tolerance
+
+1. **Scalability Strategy**
+   - Discuss or implement strategies for scaling the reservation system (e.g., caching, database sharding, load balancing).
+   - Explain how to handle failures or downtime gracefully.
+
